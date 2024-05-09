@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+}
+.navbar{
+    display: flex;
+    
+    
+}
+.navbar li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 15%);
+}
+.navbar li{
+    list-style: none;
+    margin-right: 70px;
+    
+}
+
