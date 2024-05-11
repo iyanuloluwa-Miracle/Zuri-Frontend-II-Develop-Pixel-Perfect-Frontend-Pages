@@ -28,3 +28,38 @@ body{
     
 }
 
+.section-one-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 60px;
+
+}
+
+.heading-two-text >h2{
+    font-size: 30px;
+    font-family: "Raleway";
+    font-weight: 700;
+
+}
+
+.heading-two-text >p{
+    font-size: 16px;
+    margin-top: 20px;
+    
+}
+
+.get-started{
+    padding: 7px 45px ;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    margin-left: 30px;
+}
+.input-section{
+    display: flex;
+    margin-top: 20px;
+}
+.search{
+    padding: 7px 35px ;
+}
