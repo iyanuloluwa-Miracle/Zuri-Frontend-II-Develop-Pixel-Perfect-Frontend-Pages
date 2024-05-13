@@ -14,9 +14,7 @@ body{
     margin: 40px;
 }
 .navbar{
-    display: flex;
-    
-    
+    display: flex;   
 }
 .navbar li a{
     text-decoration: none;
@@ -24,29 +22,32 @@ body{
 }
 .navbar li{
     list-style: none;
-    margin-right: 70px;
-    
+    margin-right: 70px;   
 }
 
 .section-one-wrapper{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-left: 60px;
-
 }
 
-.heading-two-text >h2{
+
+.image-wrapper{
+    margin-left: 50px;
+}
+
+
+h2{
     font-size: 30px;
     font-family: "Raleway";
     font-weight: 700;
-
 }
 
 .heading-two-text >p{
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 20px;
-    
+    font-weight: 400;    
 }
 
 .get-started{
@@ -56,10 +57,60 @@ body{
     border: none;
     margin-left: 30px;
 }
+
 .input-section{
     display: flex;
     margin-top: 20px;
 }
 .search{
     padding: 7px 35px ;
+}
+
+.section-two-paragraph{
+    font-size: 12px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.container{
+    margin-top: 100px;
+}
+
+.fylo-link-wrapper{
+    display: flex;
+    align-items: end;
+    font-size: 12px;
+    margin-top: 20px;  
+}
+
+.fylo-link-wrapper a{
+    color: hsl(170, 45%, 43%);
+}
+
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.avatar-container{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 15px;             ;
+}
+
+.general-font{
+    font-size: 12px;
+    margin-left: 15px;
+    
+}
+
+.card-wrapper{
+    margin-top: 60px;
+    width: 300px;
+    height: 180px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
