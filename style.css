@@ -174,17 +174,23 @@ h2{
 
 
 .footer{
-    background-color:  hsl(243, 87%, 12%);
-    color: white;
     font-size: 14px;
     display: flex;
     justify-content: space-around;
+    padding: 60px;
+}
+
+.footer-wrapper{
+    background-color:  hsl(243, 87%, 12%);
+    color: white;
+    
 }
 
 .phone{
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-top: 10px;
 }
 
 
@@ -192,9 +198,11 @@ h2{
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-top: 10px;
 
 }
 
 .footer-container{
     margin-left: -100px;
 }
+
