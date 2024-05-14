@@ -121,7 +121,7 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 200px;
+    height: 250px;
 
 }
 .get-access h2{
@@ -155,7 +155,46 @@ h2{
 
 
 .early-access-signup {
-    padding: 10px 15px; /* Adjust padding as needed */
-    width: 380px; /* Set a width for the input field */
+    padding: 10px 15px;
+    width: 380px;
    
+}
+
+
+.get-started-free{
+    padding: 11px 20px ;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: -210px;
+
+}
+
+
+.footer{
+    background-color:  hsl(243, 87%, 12%);
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.email{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.footer-container{
+    margin-left: -100px;
 }
