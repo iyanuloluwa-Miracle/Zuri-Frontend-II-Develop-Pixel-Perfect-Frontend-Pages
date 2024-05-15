@@ -206,3 +206,55 @@ h2{
     margin-left: -100px;
 }
 
+
+
+
+@media (max-width: 768px) {
+
+    br {
+        display: none;
+    }
+
+
+  .navbar li{
+    margin: 20px;   
+    }
+
+
+    .section-one-wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .image-wrapper{
+        width: 100%;
+    }
+    h2{
+        font-size: 25px;
+        font-family: "Raleway";
+        font-weight: 700;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .input-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .heading-two-text >p{
+        text-align: center;  
+    }
+    
+
+
+    .get-access{
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
